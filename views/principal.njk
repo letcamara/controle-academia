@@ -1,0 +1,59 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+<section>
+    <div id="banner">
+        <div class="banner__text">
+            <h1>As melhores receitas</h1>
+            <p>Aprenda a construir os melhores pratos
+                com receitas criadas por profissionais
+                do mundo inteiro.
+            </p>
+        </div>
+        <div class="banner__image">
+            <img src="/chef.png" alt="Chef" />
+        </div>
+    </div>
+    <div class="cards">
+        <h1>
+            Mais acessadas
+        </h1>
+        <div class="card__content">
+            <div class="card" id="receita__01">
+                <div class="card__image-container">
+                    <img src="/burger.png" alt="Triplo bacon burger" />
+                </div>
+                <div class="card__title">
+                    <p>Triplo bacon burger</p>
+                </div>
+                <div class="card__author">
+                    <p>por Jorge Relato</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__image-container">
+                    <img src="/burger.png" alt="Triplo bacon burger" />
+                </div>
+                <div class="card__title">
+                    <p>Triplo bacon burger</p>
+                </div>
+                <div class="card__author">
+                    <p>por Jorge Relato</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__image-container">
+                    <img src="/burger.png" alt="Triplo bacon burger" />
+                </div>
+                <div class="card__title">
+                    <p>Triplo bacon burger</p>
+                </div>
+                <div class="card__author">
+                    <p>por Jorge Relato</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
