@@ -3,17 +3,24 @@
 const express = require('express')
 const nunjucks = require('nunjucks')
 const routes = require('./routes')
+
 const server = express()
 
 //! confg do nunjucks
 server.set('view engine', 'njk')
 
+//Para o form - funcionamento do req.body
+server.use(express.urlencoded({
+    extended: true
+}))
 //Middleware .use
 server.use(express.static('public')) // CSS
 server.use(routes)
 
 nunjucks.configure('views', {
-    express : server
+    express : server,
+    autoescape: false,
+    noCache : true
 })
 
 //4
@@ -25,6 +32,6 @@ nunjucks.configure('views', {
 
 //3 - 
 // o server está "escutando" na porta 5000
-server.listen(8000, function(){
+server.listen(5000, function(){
     console.log('server is running')
 });
