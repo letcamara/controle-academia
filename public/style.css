@@ -135,7 +135,7 @@ header {
 
 /* ===FORMS=== */
 
-input {
+input, select {
     width: 100%;
     outline: none;
 
@@ -162,9 +162,81 @@ a.button {
     margin-top: 32px;
     color: #fff;
     font-size: 16px;
+    border: none;
 }
 a.button {
     display: block;
     text-align: center;
     text-decoration: none;
+}
+#form-delete button[type="submit"] {
+    margin-top: 8px;
+    background-color: lightcoral;
+    border: none;
+}
+
+/* ===TABLE=== */
+
+.table-container {
+    display: block;
+    background-color: #ffffff;
+    padding: 40px;
+    max-width: 800px;
+    margin: 45px auto;
+    box-sizing: border-box;
+}
+
+.table-container table {
+    border-spacing: 0;
+}
+
+.table-container thead tr th {
+    text-align: left;
+}
+
+th {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+td, th {
+    padding: 16px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+tbody tr td:first-child {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    align-items: center;
+}
+tbody tr td:first-child span {
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+tbody tr td:last-child a, .table-container > a {
+    background-color: var(--primary-color);
+    padding: 8px 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.table-container > a {
+    margin-bottom: 16px;
+    float: right;
+}
+
+.table-container thead tr th:last-child,
+td:last-child {
+    text-align: center;
 }

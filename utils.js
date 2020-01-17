@@ -10,5 +10,21 @@ module.exports = {
             age = age - 1
         }
         return age
+    },
+    date: function(timeStamp){
+        const date = new Date(timeStamp)
+
+        //yyyy
+        const year = date.getUTCFullYear()
+
+        //mm
+        const month = `0${date.getUTCMonth() + 1}`.slice(-2)
+
+        //dd
+        const day = `0${date.getUTCDay()}`.slice(-2)
+
+        return {
+            iso: `${year}-${month}-${day}`,
+            birthDay: `${day}/${month}`        }
     }
 }
