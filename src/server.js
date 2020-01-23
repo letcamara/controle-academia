@@ -20,7 +20,7 @@ server.use(methodOverride('_method')) // no arquivo Edit.njk = linha: action="/i
 server.use(routes)
 
 
-nunjucks.configure('views', {
+nunjucks.configure('src/app/views', {
     express : server,
     autoescape: false,
     noCache : true
@@ -35,6 +35,6 @@ nunjucks.configure('views', {
 
 //3 - 
 // o server está "escutando" na porta 5000
-server.listen(5000, function(){
+server.listen(5500, function(){
     console.log('server is running')
 });

@@ -3,12 +3,26 @@
 {% block content %}
 
 <div class="table-container">
-    <a href="instructor/create">+ Novo instrutor</a>
+    <div class="header">
+        <form action="/instructor" method="GET">
+            <input 
+            type="text"
+            name="filter"
+            placeholder="Nome ou Atendimento"
+            value="{{filter}}"
+            >
+            <button type="submit">
+                Filtrar
+            </button>
+        </form>
+        <a class="button" href="instructor/create">+ Novo instrutor</a>
+    </div>
     <table width="100%">
         <thead>
             <tr>
                 <th>Instructor</th>
-                <th>Services</th>
+                <th>Atendimento</th>
+                <th>Alunos</th>
                 <th>Ações</th>
             </tr>
         </thead>
@@ -21,6 +35,7 @@
                     {{instructor.name}}
                 </td>
                 <td>{{instructor.services}}</td>
+                <td>{{instructor.total_students}}</td>
                 <td>
                     <a href="/instructor/{{instructor.id}}">Ver</a>
                 </td>
@@ -28,6 +43,15 @@
             {% endfor %}
         </tbody>
     </table>
+
+    <div class="pagination"
+        data-page={{pagination.page}}
+        data-total={{pagination.total}}
+        data-filter={{filter}}
+    >
+    
+    </div>
+
 </div>
 
 {% endblock content %}

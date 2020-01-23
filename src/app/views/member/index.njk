@@ -3,7 +3,20 @@
 {% block content %}
 
 <div class="table-container">
-    <a href="member/create">+ Novo membro</a>
+    <div class="header">
+        <form action="/member" method="GET">
+            <input 
+            type="text"
+            name="filter"
+            placeholder="Nome ou Email"
+            value="{{filter}}"
+            >
+            <button type="submit">
+                Filtrar
+            </button>
+        </form>
+        <a class="button" href="member/create">+ Novo membro</a>
+    </div>
     <table width="100%">
         <thead>
             <tr>
@@ -32,6 +45,12 @@
             {% endfor %}
         </tbody>
     </table>
+    <div class="pagination"
+        data-page={{pagination.page}}
+        data-total={{pagination.total}}
+        data-filter={{filter}}
+    >
+    </div>
 </div>
 
 {% endblock content %}
