@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/letcamara">
-    <img alt="Feito por Letícia Câmara" src="https://img.shields.io/badge/feito%20por-LeticiaCamara">
+    <img align="center" src="https://img.shields.io/badge/feito%20por-let%20Camara-blue" alt="let Camara" border="0">
   </a>
 </p>
 
