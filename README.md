@@ -16,7 +16,13 @@
 
 <br>
 <p align="center">
-  <img align="center" src="https://i.ibb.co/FKG1tH9/img-gymmanager.png" alt="Controle academia" border="0">
+  <img align="center" src="https://i.ibb.co/4pzYzJ9/img-gymmanager-3.png" alt="Controle academia" border="0">
+</p>
+<p align="center">
+  <img align="center" src="https://i.ibb.co/9q3g1ZF/img-gymmanager-2.png" alt="Controle academia" border="0">
+</p>
+<p align="center">
+  <img align="center" src="https://i.ibb.co/tb9KrcS/img-gymmanager-1.png" alt="Controle academia" border="0">
 </p>
 <br>
 
