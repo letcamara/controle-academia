@@ -22,7 +22,7 @@
 
 
 ## :rocket: Sobre o projeto
-Projeto 1 do LaunchBase Bootcamp - Rocketseat <br>
+**Projeto 1 - LaunchBase Bootcamp - Rocketseat** <br>
 Os objetivos principais desse projeto foram: consolidar meus conhecimentos em HTML/ CSS, aprofundar no javascript e aprender novas ferramentas como o Nunjucks e iniciar no back-end.
 
 ## :runner: Instalação
@@ -38,4 +38,4 @@ Os objetivos principais desse projeto foram: consolidar meus conhecimentos em HT
 
 ```
 
-Feito com ♥ por Letícia :wave: [Meu linkedin](https://www.linkedin.com/in/letcamara)
+Feito com ♥ por Letícia [Meu linkedin](https://www.linkedin.com/in/letcamara)
