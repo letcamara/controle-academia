@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="#rocket-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#runner-instalacao">Instalação</a>
+  <a href="#runner-instalação">Instalação</a>
 </p>
 
 <br>
