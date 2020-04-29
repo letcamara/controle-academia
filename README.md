@@ -38,4 +38,4 @@ Os objetivos principais desse projeto foram: consolidar meus conhecimentos em HT
 
 ```
 
-Feito com ♥ por Letícia(https://www.linkedin.com/in/letcamara)
+Feito com ♥ por [Letícia](https://www.linkedin.com/in/letcamara)
