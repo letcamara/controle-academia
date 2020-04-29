@@ -4,10 +4,8 @@
 
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/LauraBeatris/amazon-next?color=%232d3748">
-
   <a href="https://www.linkedin.com/in/letcamara">
-    <img alt="Feito por Letícia Câmara" src="https://img.shields.io/badge/feito%20por-LeticiaCamara-%232d3748">
+    <img alt="Feito por Letícia Câmara" src="https://img.shields.io/badge/feito%20por-LeticiaCamara">
   </a>
 </p>
 
@@ -18,7 +16,7 @@
 
 <br>
 <p align="center">
-  <img align="center" src="https://i.ibb.co/FKG1tH9/img-gymmanager.png" alt="Product List" border="0">
+  <img align="center" src="https://i.ibb.co/FKG1tH9/img-gymmanager.png" alt="Controle academia" border="0">
 </p>
 <br>
 
