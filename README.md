@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/letcamara">
-    <img align="center" src="https://img.shields.io/badge/feito%20por-let%20Camara-blue" alt="let Camara" border="0">
+    <img align="center" src="https://img.shields.io/badge/feito%20por-let%20Camara;-blue" alt="let Camara" border="0">
   </a>
 </p>
 
@@ -44,4 +44,4 @@ Os objetivos principais desse projeto foram: consolidar meus conhecimentos em HT
 
 ```
 
-Feito com ♥ por [Letícia](https://www.linkedin.com/in/letcamara)
+Feito com ♥ por [let Camara;](https://www.linkedin.com/in/letcamara)
